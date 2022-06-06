@@ -1,0 +1,71 @@
+.button-success {
+  background-color: #66fcf1;
+  border: 3px solid #c5c6c7;
+  border-radius: 2px;
+  cursor: pointer;
+  height: 10px;
+  height: 36px;
+}
+.button-success:hover {
+  background-color: #45a29e;
+}
+.form {
+  background-color: #0b0c10;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 16vh;
+}
+.input {
+  background-color: c5c6c7;
+  height: 35px;
+  min-width: 300px;
+  margin: 20px;
+}
+
+.mainGrid {
+  /* display: flex;
+  position: relative;
+  grid-template-columns: auto auto auto;
+  margin: 0vw 2vw;
+  background-color: rgb(224, 137, 137); */
+  background-color: #0b0c10;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list {
+  /* border: 2px solid lightgrey; */
+  min-width: 200px;
+  margin: 15px 0px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+/* background-image: url("../assets/check-list.png");
+  background-repeat: no-repeat; */
+
+.taskHeading {
+  justify-content: center;
+  background-color: #1f2833;
+  color: #66fcf1;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.body-bg {
+  background-color: #0b0c10;
+  min-height: calc(100vh - 60px - 50px);
+}
+
+.noItemsmessage {
+  color: #66fcf1;
+  font-family: cursive;
+  margin: 15px 0px;
+}

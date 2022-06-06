@@ -1,0 +1,41 @@
+.button-danger {
+  border: 3px solid #45a29e;
+  background-color: #66fcf1;
+  height: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* border: 2px solid #ded9d9; */
+  background-color: #c5c6c7;
+  margin: 5vh 5vh 1vw 1vw;
+  border-radius: 15px;
+  width: 100%;
+}
+.taskName {
+  color: #0b0c10;
+  font-family: cursive;
+}
+.funcBtn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.arwBtnGrp {
+  margin: 10px;
+}
+
+.arw {
+  margin: 2px;
+}
+.messageToAdd {
+  color: #66fcf1;
+  font-family: cursive;
+  margin-top: 20vh;
+}
