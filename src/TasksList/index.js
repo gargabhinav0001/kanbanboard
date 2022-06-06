@@ -19,73 +19,73 @@ export default function TasksList(props) {
     ],
   ];
   const [toDoItems, setToDoItems] = useState([
-    {
-      id: 1,
-      parentId: 1,
-      taskName: "First Task",
-      taskStartAt: "",
-      taskEndAt: "",
-    },
-    {
-      id: 2,
-      parentId: 1,
-      taskName: "Second Task",
-      taskStartAt: "",
-      taskEndAt: "",
-    },
-    {
-      id: 3,
-      parentId: 1,
-      taskName: "Third Task",
-      taskStartAt: "",
-      taskEndAt: "",
-    },
+    // {
+    //   id: 1,
+    //   parentId: 1,
+    //   taskName: "First Task",
+    //   taskStartAt: "",
+    //   taskEndAt: "",
+    // },
+    // {
+    //   id: 2,
+    //   parentId: 1,
+    //   taskName: "Second Task",
+    //   taskStartAt: "",
+    //   taskEndAt: "",
+    // },
+    // {
+    //   id: 3,
+    //   parentId: 1,
+    //   taskName: "Third Task",
+    //   taskStartAt: "",
+    //   taskEndAt: "",
+    // },
   ]);
   const [inProgressItems, setInProgressItems] = useState([
-    {
-      id: 4,
-      parentId: 2,
-      taskName: "Fourth Task",
-      taskStartAt: "",
-      taskEndAt: "",
-    },
-    {
-      id: 5,
-      parentId: 2,
-      taskName: "Fifth Task",
-      taskStartAt: "",
-      taskEndAt: "",
-    },
-    {
-      id: 6,
-      parentId: 2,
-      taskName: "Sixth Task",
-      taskStartAt: "",
-      taskEndAt: "",
-    },
+    // {
+    //   id: 4,
+    //   parentId: 2,
+    //   taskName: "Fourth Task",
+    //   taskStartAt: "",
+    //   taskEndAt: "",
+    // },
+    // {
+    //   id: 5,
+    //   parentId: 2,
+    //   taskName: "Fifth Task",
+    //   taskStartAt: "",
+    //   taskEndAt: "",
+    // },
+    // {
+    //   id: 6,
+    //   parentId: 2,
+    //   taskName: "Sixth Task",
+    //   taskStartAt: "",
+    //   taskEndAt: "",
+    // },
   ]);
   const [finishedItems, setFinishedItems] = useState([
-    {
-      id: 7,
-      parentId: 3,
-      taskName: "Seventh Task",
-      taskStartAt: "",
-      taskEndAt: "",
-    },
-    {
-      id: 8,
-      parentId: 3,
-      taskName: "Eighth Task",
-      taskStartAt: "",
-      taskEndAt: "",
-    },
-    {
-      id: 9,
-      parentId: 3,
-      taskName: "Ninth Task",
-      taskStartAt: "",
-      taskEndAt: "",
-    },
+    // {
+    //   id: 7,
+    //   parentId: 3,
+    //   taskName: "Seventh Task",
+    //   taskStartAt: "",
+    //   taskEndAt: "",
+    // },
+    // {
+    //   id: 8,
+    //   parentId: 3,
+    //   taskName: "Eighth Task",
+    //   taskStartAt: "",
+    //   taskEndAt: "",
+    // },
+    // {
+    //   id: 9,
+    //   parentId: 3,
+    //   taskName: "Ninth Task",
+    //   taskStartAt: "",
+    //   taskEndAt: "",
+    // },
   ]);
 
   const handleCallbackToDeleteToDoItems = (id) => {
